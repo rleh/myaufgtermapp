@@ -1,5 +1,5 @@
 $("#b_login").click(function() {
-  $.get("php/login.php", { user: $("#f_user").val(), pw: $("#f_pw").val() })
+  $.get("http://app.mytfg.de/app/php/login.php", { user: $("#f_user").val(), pw: $("#f_pw").val() })
 	.done(function(data) {
 		if(data=="login_ok"){
 			alert("Anmeldung erfolgreich!");

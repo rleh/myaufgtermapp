@@ -1,7 +1,7 @@
 function loadList() {
   hideall();
 	$("#t_liste").show();
-	$("#t_liste").load("php/liste.php");
+	$("#t_liste").load("http://app.mytfg.de/app/php/liste.php");
 	//alert("Neu Geladen");
 }
 
@@ -24,7 +24,7 @@ $(".tr_liste").click( function() {
 	alert(id);
 	hideall();
 	$("#t_view").show();
-	$("#t_view").load("php/view.php?id="+id);
+	$("#t_view").load("http://app.mytfg.de/app/php/view.php?id="+id);
 });
 */
 
@@ -48,6 +48,6 @@ $(".view_title").click( function() {
 	var id = $(this).attr('id');
 	hideall();
 	$("#t_edit").show();
-	$("#t_edit").load("php/edit.php?id="+id);	
+	$("#t_edit").load("http://app.mytfg.de/app/php/edit.php?id="+id);	
 });
 */

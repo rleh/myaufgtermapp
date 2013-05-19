@@ -63,3 +63,25 @@ header {
 	color: #B5B5B5;
 	font-size: 115%;
 }
+
+ul.h_menu {
+	display: none;
+	/*display: none;*/
+	position: absolute;
+	z-index: 1500;
+	right: 0px;
+	top: 40px;
+	background-color: #929292;
+	color: #0102EF;
+	margin: 5px;
+	text-align: right;
+	padding: 5px;
+}
+
+
+
+li {
+	list-style: none;
+	
+	
+}

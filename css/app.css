@@ -1,8 +1,9 @@
 body {
-	color: #FFFFFF;
+	color: #EEEEEF;
 	background-color: #01027F;
 	margin: 10px;
 	font-family: sans-serif;
+	padding-top: 45px;
 }
 
 table {
@@ -24,4 +25,41 @@ h1,h2,h3,h4,h5,h6,h7 {
 	display: inline-block;
 	padding: 10px;
 	text-align: center;
+}
+
+header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+
+	background-color: #01026F;
+	color: #FFFFFF;
+	padding: 5px;
+	margin: 0px;
+}
+
+.header_back {
+	float: left;
+	margin: 3px;
+	margin-left: 5px;
+	height: 25px;
+	width: 25px;
+}
+
+.header_menu {
+	float: right;
+	margin: 3px;
+	margin-right: 15px;
+	height: 25px;
+	width: 25px;
+}
+
+.header_cont {	
+	height: 25px;
+	text-align: center;
+	margin: 5px;
+	font-weight: bold;
+	color: #B5B5B5;
+	font-size: 115%;
 }

@@ -1,1 +1,27 @@
- 
+body {
+	color: #FFFFFF;
+	background-color: #01027F;
+	margin: 10px;
+	font-family: sans-serif;
+}
+
+table {
+	border: 1px solid;
+	border-color: #0408FF;
+	width: 99%;
+}
+
+img {
+	margin: 5px;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+
+.start_obj {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}

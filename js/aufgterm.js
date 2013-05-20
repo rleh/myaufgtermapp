@@ -1,53 +1,22 @@
-function loadList() {
-  hideall();
+function t_list() {
+	t_hideall();
 	$("#t_liste").show();
 	$("#t_liste").load("http://app.mytfg.de/app/php/liste.php");
 	//alert("Neu Geladen");
 }
 
-function hideall() {
+function t_hideall() {
 	$("#t_liste").hide();
 	$("#t_view").hide();
 	$("#t_edit").hide();
 	$("#t_new").hide();
-	$("#t_blabla").hide();
 }
 
 
 $(document).ready( function() {
-	loadList(); 
+	t_list(); 
 });
 
-/*
-$(".tr_liste").click( function() {
-	var id = $(this).attr('id');
-	alert(id);
-	hideall();
-	$("#t_view").show();
-	$("#t_view").load("http://app.mytfg.de/app/php/view.php?id="+id);
+$("#l_refresh").click( function() {
+	t_list();
 });
-*/
-
-$("#b_refresh").click( function() {
-	loadList();
-});
-
-
-$("#b_logout").click( function() {
-	alert("Erfolgreich Abgemeldet!");
-});
-
-
-$("#b_settings").click( function() {
-	location.href='settings.html';;
-});
-
-
-/*
-$(".view_title").click( function() {
-	var id = $(this).attr('id');
-	hideall();
-	$("#t_edit").show();
-	$("#t_edit").load("http://app.mytfg.de/app/php/edit.php?id="+id);	
-});
-*/

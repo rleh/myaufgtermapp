@@ -15,14 +15,19 @@
 			<div class="header_cont">MyTFG App</div>
 		</header>
 		<ul class="h_menu">
-			<li id="my_logout">Abmelden</li>
 			<li id="my_settings">Einstellungen</li>
+			<li class="my_logout">Abmelden</li>
 		</ul>
 		
 		<div class="start_obj"> <a id="start_b_login"> <img src="img/login.png" class="img_start" alt="Login" /></a> <p>Login</p> </div>
 		<div class="start_obj"> <a id="start_b_aufgterm"> <img src="img/control.png" class="img_start" alt="Aufgaben" /></a> <p>Aufgaben</p> </div>
-		<div class="start_obj"> <a id="start_b_bla"> <img src="img/logout.png" class="img_start" alt="Bla" /> </a> <p>Bla</p> </div>
+		<div class="start_obj"> <a id="start_b_logout"> <img src="img/logout.png" class="img_start" alt="Logout" /> </a> <p>Logout</p> </div>
 		<script src="js/start.js" type="text/javascript"></script>
 		<script src="js/app.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$("#start_b_logout").click( function() {
+				my_logout();
+			});
+		</script>
 	</body>
 </html>

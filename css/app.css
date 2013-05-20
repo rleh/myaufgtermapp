@@ -21,6 +21,12 @@ h1,h2,h3,h4,h5,h6,h7 {
 	font-family: sans-serif;
 }
 
+.img_start {
+	border: 0px;
+	width: 50pt;
+	height: 50pt;
+}
+
 .start_obj {
 	display: inline-block;
 	padding: 10px;
@@ -29,7 +35,7 @@ h1,h2,h3,h4,h5,h6,h7 {
 
 header {
 	position:fixed;
-	top:0px;
+	top:-1px;
 	left:0px;
 	width:100%;
 

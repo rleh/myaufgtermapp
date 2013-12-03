@@ -12,7 +12,7 @@ function t_hideall() {
 	$("#t_new").hide();
 }
 
-function t_trclick(var id) {
+function t_trclick(id) {
 	alert("VIEW MODE!");
 	t_hideall();
 	$("#t_view").show();
@@ -21,6 +21,7 @@ function t_trclick(var id) {
 
 
 $(document).ready( function() {
+	alert("Document ready");
 	t_list(); 
 });
 

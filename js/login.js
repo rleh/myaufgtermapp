@@ -10,7 +10,7 @@ $(document).ready(function() {
 $("#b_login").click(function() {
 	var my_pw = $("#f_pw").val();
 	var my_user = $("#f_user").val();
-	$.post("http://app.mytfg.de/app/php/login.php", { user: my_user, pw: my_pw })
+	$.post("http://app.mytfg.de/php/login.php", { user: my_user, pw: my_pw })
 		.done(function(data) {
 			if(data=="login_ok"){
 				window.localStorage.setItem("my_user", my_user);

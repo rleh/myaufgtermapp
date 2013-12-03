@@ -24,7 +24,7 @@ function t_checknew() {
 		var my_pw = window.localStorage.getItem("my_pw");
 		var my_user = window.localStorage.getItem("my_user");
 		var oldtimestamp = window.localStorage.getItem("t_timestamp");
-		$.post("http://app.mytfg.de/app/php/t_checknew.php", { user: my_user, pw: my_pw })
+		$.post("http://app.mytfg.de/php/t_checknew.php", { user: my_user, pw: my_pw })
 			.done(function(data) {
 				if(data != oldtimestamp || oldtimestamp != null || data != null){
 					window.localStorage.setItem("t_timestamp", data);

@@ -1,7 +1,7 @@
 function t_list() {
 	t_hideall();
 	$("#t_liste").show();
-	$("#t_liste").load("http://app.mytfg.de/app/php/liste.php");
+	$("#t_liste").load("http://app.mytfg.de/php/liste.php");
 	//alert("Neu Geladen");
 }
 

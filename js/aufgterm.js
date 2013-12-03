@@ -12,6 +12,12 @@ function t_hideall() {
 	$("#t_new").hide();
 }
 
+function t_trclick(var id) {
+	t_hideall();
+	$("#t_view").show();
+	$("#t_view").load("http://app.mytfg.de/php/view.php?id=".id);
+}
+
 
 $(document).ready( function() {
 	t_list(); 

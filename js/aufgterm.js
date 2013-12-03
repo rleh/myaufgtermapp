@@ -21,7 +21,7 @@ function t_trclick(id) {
 
 
 $(document).ready( function() {
-	alert("Document ready");
+	//alert("Document ready");
 	t_list(); 
 });
 

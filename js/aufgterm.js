@@ -13,7 +13,7 @@ function t_hideall() {
 }
 
 function t_trclick(id) {
-	alert("VIEW MODE!");
+	//alert("VIEW MODE!");
 	t_hideall();
 	$("#t_view").show();
 	$("#t_view").load("http://app.mytfg.de/php/view.php?id=".id);

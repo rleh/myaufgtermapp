@@ -13,10 +13,10 @@ function t_hideall() {
 }
 
 function t_trclick(id) {
-	alert(id);
+	//alert(id);
 	t_hideall();
 	$("#t_view").show();
-	$("#t_view").load("http://app.mytfg.de/php/view.php?id=".id);
+	$("#t_view").load("http://app.mytfg.de/php/view.php?id="+id);
 }
 
 
